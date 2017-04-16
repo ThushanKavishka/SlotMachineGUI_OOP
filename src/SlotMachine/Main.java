@@ -21,7 +21,7 @@ public class Main {
     static int betCredits = 0;
 
     public static void main(String[] args) throws IOException {
-        //create JFrame in the main window
+        //create JFrame in the main window..
         SlotMachineGui obj = new SlotMachineGui();
         obj.setTitle("SLOT GAME");
         obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
