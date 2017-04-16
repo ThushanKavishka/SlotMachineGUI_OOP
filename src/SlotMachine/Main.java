@@ -23,8 +23,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
         //create JFrame in the main window..
         SlotMachineGui obj = new SlotMachineGui();
+        //set title
         obj.setTitle("SLOT GAME");
         obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //set size in JFrame
         obj.setSize(700, 550);
         obj.getContentPane().setBackground(new Color(170, 170, 85));
         obj.setLocationRelativeTo(null);
