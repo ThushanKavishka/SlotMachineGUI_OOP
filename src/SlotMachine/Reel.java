@@ -14,7 +14,7 @@ import javax.swing.ImageIcon;
  * @author THUSHAN
  */
 public class Reel {
-   // create an arraylist to assign images
+   // create an arraylist to assign images...
     public ArrayList<Symbol> symbol = new ArrayList<Symbol>();
 
     public Reel() {
