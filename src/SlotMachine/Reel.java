@@ -18,7 +18,7 @@ public class Reel {
     public ArrayList<Symbol> symbol = new ArrayList<Symbol>();
 
     public Reel() {
-
+        //set images
         Symbol bell = new Symbol();
         bell.setImage("images/bell.png");
         bell.setValue(6);
