@@ -51,7 +51,7 @@ public class Reel {
         symbol.add(watermelon);
 
     }
-    //shuffle the images in the arraylist
+    //shuffle the images in the arraylist...
     public ArrayList Spin(ArrayList images) {
         Collections.shuffle(images);
         return images;
