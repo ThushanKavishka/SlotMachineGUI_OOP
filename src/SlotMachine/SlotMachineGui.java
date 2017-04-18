@@ -17,7 +17,7 @@ import javax.swing.border.Border;
  * @author THUSHAN
  */
 public class SlotMachineGui extends JFrame {
-
+    //create objects
     Main main = new Main();
     event event = new event();
     event2 event2 = new event2();
