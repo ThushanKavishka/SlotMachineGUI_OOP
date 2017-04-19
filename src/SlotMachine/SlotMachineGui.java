@@ -94,7 +94,7 @@ public class SlotMachineGui extends JFrame {
 
         btn1.setBackground(new Color(230, 230, 255));
         btn1.setSize(500, 500);
-        //create JLabel to display credits
+        //create JLabel to display credits...
         txtLbl1 = new JLabel("      $ " + Integer.toString(main.credits));
         txtLbl1.setBorder(BorderFactory.createTitledBorder(border, "CREDIT AREA"));
         //create JLabel to display bet credits
