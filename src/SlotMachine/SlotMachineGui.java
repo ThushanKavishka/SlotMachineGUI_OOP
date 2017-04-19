@@ -69,7 +69,7 @@ public class SlotMachineGui extends JFrame {
         event6();
 
     }
-
+    //button functionalities
     public void addButton() {
         Border border = BorderFactory.createMatteBorder(3, 3, 3, 3, new Color(229, 229, 204));
 
