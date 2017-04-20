@@ -44,7 +44,7 @@ public class StackWindow extends JFrame {
     private JLabel txtLbl3, txtLbl4, txtLbl5, txtLbl9, txtLbl10, txtLbl11;
     private JButton btn7;
 
-    //create object of SlotMachineGui class
+    //create object of SlotMachineGui class...
     SlotMachineGui gui2 = new SlotMachineGui();
     GridBagConstraints gbc = new GridBagConstraints();
     //create object of event7 class use in eventHandling
