@@ -60,19 +60,19 @@ public class StackWindow extends JFrame {
         gbc.ipadx = 2;
         gbc.ipady = 12;
 
-        //create new Jlabel for set no of wins
+        //create new Jlabel for set no of wins..
         txtLbl3 = new JLabel();
         txtLbl3.setBorder(BorderFactory.createTitledBorder(border, "WINS"));
-        //create new Jlabel for set no of losses
+        //create new Jlabel for set no of losses..
         txtLbl4 = new JLabel();
         txtLbl4.setBorder(BorderFactory.createTitledBorder(border, "LOSSES"));
-        //create new Jlabel for set no of free spins
+        //create new Jlabel for set no of free spins..
         txtLbl11 = new JLabel();
         txtLbl11.setBorder(BorderFactory.createTitledBorder(border, "FREE SPINS"));
-        ////create new Jlabel for set no of spins
+        ////create new Jlabel for set no of spins..
         txtLbl10 = new JLabel();
         txtLbl10.setBorder(BorderFactory.createTitledBorder(border, "SPINS"));
-        //create new JButton for save data into a file
+        //create new JButton for save data into a file..
         btn7 = new JButton("Save Statistics");
 
         //create new Jlabel for set file saved status 
