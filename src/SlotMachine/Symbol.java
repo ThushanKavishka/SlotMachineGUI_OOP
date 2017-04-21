@@ -43,7 +43,7 @@ public class Symbol implements ISymbol {
     public int getValue() {
         return this.value;
     }
-    //check if three symbols are matched or not from their values
+    //check if three symbols are matched or not from their values...
     public int checkThreeSymbols(Symbol s1, Symbol s2, Symbol s3) {
         if (s1.getValue() == s2.getValue() && s2.getValue() == s3.getValue()) {
             matchSymbols = 3;
