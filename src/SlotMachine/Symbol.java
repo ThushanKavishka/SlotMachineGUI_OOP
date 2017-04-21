@@ -16,18 +16,18 @@ public class Symbol implements ISymbol {
     String image; // stores path of the image
     int value; // credit of the symbol
 
-    //create contructor of Symbol class
+    //create contructor of Symbol class..
     public Symbol() {
 
     }
-    //public method to set Image
+    //public method to set Image..
     @Override
     public void setImage(String image) {
 
         this.image = image;
 
     }
-    //public method to return image
+    //public method to return image..
     @Override
     public String getImage() {
         return this.image;
